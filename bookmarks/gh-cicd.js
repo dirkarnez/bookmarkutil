@@ -1,0 +1,1 @@
+javascript:window.open(`${new URL(window.location.href).origin}${`${new URL(window.location.href).pathname}`.match(/^(\/dirkarnez\/[^\/]+)/g)[0]}/new/main?filename=.github%2Fworkflows%2Fmain.yml&workflow_template=ci%2Fc-cpp`)
